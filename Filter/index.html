@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <title>pass message</title>
+</head>
+<body>
+   <!-- <section id="content">
+       <div class="menu_top">
+           <img src="images/logo.svg" alt="">
+
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Store</a></li>
+            </ul>
+
+            <div class="contact">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <span>+123 456 789</span>
+            </div>
+
+            <div class="button">
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                <span>2 Items - $10.49</span>
+            </div>
+       </div>
+
+       <h3 class="name">Welcome To <b>Grandma's</b></h3>
+       <div class="btn">Explore</div>
+   </section>
+   <section id="middle">
+        <div class="left">
+            <h3 class="us">
+                About<b> Us</b>
+            </h3>
+            <h4>Lorem ipsum dolor sit amet, consectetur ut, perferendis.</h4>
+            <div class="btn btn_us">Explore</div>
+        </div>
+       
+        <div class="right">
+            <div class="square">
+                <img src="images/sweets-1.jpeg" alt="">
+            </div>
+        </div>
+   </section> -->
+   <section id="filter">
+       <h3 class="our"> <b> Mời Bạn Chọn  </b></h3>
+       <div id="filter_button">     
+            <a class="btn btn-primary active" data-filter="all">All</a>
+            <!-- <a class="btn btn-primary" data-filter="price">Price</a> -->
+            <a class="btn btn-primary" data-filter="cakes">NỮ</a>
+            <a class="btn btn-primary" data-filter="cupcakes">NAM</a>
+            <a class="btn btn-primary" data-filter="sweets">SALE</a>
+            <a class="btn btn-primary" data-filter="doughnuts">BỘ SƯU TẬP</a>
+       </div>
+       <form action="" id="input_filter">
+           <span>
+               <i class="fa fa-search" aria-hidden="true"></i>
+           </span>
+           <input type="text" placeholder="filter item ..." id="search-item" autocomplete="off">
+       </form>
+
+       <form action="" id="input_filter">
+        <span>
+            <i class="fa fa-search" aria-hidden="true"></i>
+        </span>
+        <input type="text" placeholder="filter item ..." id="search-item" autocomplete="off">
+    </form>
+
+    <div id="filter-data">
+         <div class="element_cakes" data-item="cupcakes" data-aos="fade-up">
+             <img src="img/n1.jpg" alt="">
+             <div class="infor">
+                 <h1 class="name_item">ÁO SƠ MI LỤA</h1>
+                 
+             </div>
+         </div>
+         <div class="element_cakes" data-item="sweets" data-aos="fade-up">
+             <img src="img/s1.jpg" alt="">
+             <div class="infor">
+                 <h1 class="name_item">ĐẦM NHUNG XÒE</h1>
+             
+             </div>
+         </div>
+         <div class="element_cakes" data-item="cupcakes" data-aos="fade-up">
+             <img src="img/n2.jpg" alt="">
+             <div class="infor">
+                 <h1 class="name_item">ÁO SƠ MI LỤA</h1>
+             
+             </div>
+         </div>
+         <div class="element_cakes" data-item="sweets">
+             <img src="img/s2.jpg" alt="">
+             <div class="infor">
+                 <h1 class="name_item">ĐẦM NHUNG XÒE</h1>
+                 
+             </div>
+         </div>
+         <div class="element_cakes" data-item="cupcakes">
+             <img src="img/n3.jpg" alt="">
+             <div class="infor">
+                 <h1 class="name_item">ÁO SƠ MI LỤA</h1>
+                 
+             </div>
+         </div>
+         <div class="element_cakes" data-item="sweets">
+             <img src="img/s3.jpg" alt="">
+             <div class="infor">
+                 <h1 class="name_item">ĐẦM NHUNG XÒE</h1>
+                 
+             </div>
+         </div>
+         <div class="element_cakes" data-item="doughnuts">
+             <img src="img/bst3.jpg" alt="">
+             <div class="infor">
+                 <h1 class="name_item">SƠ MI HỌA TIẾT REN</h1>
+                 
+             </div>
+         </div>
+         <div class="element_cakes" data-item="cakes">
+             <img src="img/a1.jpg" alt="">
+             <div class="infor">
+                 <h1 class="name_item">SƠ MI HỌA TIẾT REN</h1>
+             
+             </div>
+         </div>
+         <div class="element_cakes" data-item="doughnuts">
+             <img src="img/bst2.jpg" alt="">
+             <div class="infor">
+                 <h1 class="name_item">SƠ MI HỌA TIẾT REN</h1>
+                 
+             </div>
+         </div>
+         <div class="element_cakes" data-item="cakes">
+             <img src="img/a2.jpg" alt="">
+             <div class="infor">
+                 <h1 class="name_item">SƠ MI HỌA TIẾT REN</h1>
+                 
+             </div>
+         </div>
+         <div class="element_cakes" data-item="cakes">
+             <img src="img/a3.jpg" alt="">
+             <div class="infor">
+                 <h1 class="name_item">SƠ MI HỌA TIẾT REN</h1>
+                 
+             </div>
+         </div>
+         <div class="element_cakes" data-item="doughnuts">
+             <img src="img/bst1.jpg" alt="">
+             <div class="infor">
+                 <h1 class="name_item">SƠ MI HỌA TIẾT REN</h1>
+                 
+             </div>
+         </div>
+            <h1 id="showtext"></h1>
+       </div>
+   </section>
+   <section id="modal" >
+       <div class="modal_box show">
+            <div class="fa fa-window-close"></div>
+            <div class="lightbox"></div>
+            <div class="fa fa-caret-left"></div>
+            <div class="fa fa-caret-right"></div>
+       </div>
+   </section>
+   <script>
+    AOS.init();
+  </script>
+    <script src="filter_js.js"></script>
+</body>
+</html>
